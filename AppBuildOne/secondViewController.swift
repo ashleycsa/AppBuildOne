@@ -27,6 +27,15 @@ class secondViewController: UIViewController {
     @IBAction func calculateButtonPressed(_ sender: Any)
     {
         self.noTextLabel.text = String(secondViewOne + secondViewTwo)
+        
+        if secondViewOne < secondViewTwo
+        {
+            self.view.backgroundColor=UIColor.blue
+        }
+        else
+        {
+            self.view.backgroundColor=UIColor.red
+        }
     }
     
     /*
