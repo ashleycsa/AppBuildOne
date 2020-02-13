@@ -26,7 +26,7 @@ class secondViewController: UIViewController {
     
     @IBAction func calculateButtonPressed(_ sender: Any)
     {
-        
+        self.noTextLabel.text = String(secondViewOne + secondViewTwo)
     }
     
     /*
